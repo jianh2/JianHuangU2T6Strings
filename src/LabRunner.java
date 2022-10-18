@@ -1,14 +1,11 @@
 public class LabRunner {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
-        System.out.println("\n");
-
-
-
-
-
+        BabyParrot baby = new BabyParrot("Toucan", 3, 6.5);
+        baby.setName("Lil' Beans");
+        String info = baby.parrotInfo(); // store returned string in variable
+        System.out.println(info);        // print the returned string
 
     }
 }
